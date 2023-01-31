@@ -1,0 +1,9 @@
+#header {
+    border: 3px dashed blue; 
+}
+#title {
+    background-color: lightskyblue;
+}
+div ol li {
+    color: red;
+}
