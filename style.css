@@ -1,11 +1,21 @@
-#header {
-    border: 3px dashed blue;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-#title {
-    background-color: lightskyblue;
+#header{
+    background-color: dimgray;
 }
-
-div ol li {
-    color: pink;
+#header{
+    height: 6rem; border-bottom: 0.5rem; color: lightsteelblue;
+}
+h1{
+    font-size: 1.5rem; color: white;
+}
+#title{
+    height: 34rem; background-color: lightgray; align-content: center;
+}
+*{
+    margin: 0;
+}
+#about{
+    display: flex;
 }
