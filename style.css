@@ -19,3 +19,25 @@ h1{
 #about{
     display: flex;
 }
+#about img{
+    height: 15.5rem;
+}
+h3{
+    color: lightsteelblue;
+}
+h3{
+    width: 13rem;
+}
+h3{
+    margin: center;
+}
+h3{
+    text-align: center;
+}
+h3{
+    padding-top: 3rem;
+}
+#fav{
+    display: flex;
+    justify-content: space-evenly;
+}
