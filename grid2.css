@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-repeat: no-repeat;
+    max-width: 1305px;
+    min-height: 1022px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+.container > * {
+    border: 2px dashed blue;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: minmax(77px,auto) minmax(440px,auto) minmax(196px,auto) minmax(310px,auto);
+    grid-template-columns: minmax(20px,250px) minmax(20px,705px) minmax(20px,350px);
+    grid-template-areas: 
+    "one five six"
+    "two two two"
+    "three three three"
+    "four four four";
+}
+
+.box5 ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: right; */
+    list-style-type: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    height: 100%;
+    padding: 0;
+    padding-left: 95px;   
+    flex-wrap: wrap;
+    }
+
+.box5 li{
+        /* flex-basis: 87px; */
+    }
+.box5 li:nth-child(1) {
+    flex-basis: 88px;
+}
+.box5 li:nth-child(2) {
+        color: red;
+        flex-basis: 110px;
+    }
+.box5 li:nth-child(3) {
+        /* padding: 26px; */
+        flex-basis: 101px;
+}
+.box5 li:nth-child(4) {
+        /* padding: 6px; */
+        flex-basis: 90px;
+}
+.box5 li:nth-child(5) {
+        /* padding: 3px; */
+        flex-basis: 142px;
+}
+.box5 li:nth-child(6) {
+        /* padding: 20px; */
+        flex-basis: 10px;
+}
+
+
+
+
+
+
+
+
+.box1 {
+    grid-area: one;
+}
+.box2 {
+    grid-area: two;
+}
+.box3 {
+    grid-area: three;
+}
+.box4 {
+    grid-area: four;
+}
+.box5 {
+    grid-area: five;
+}
+.box6 {
+    grid-area: six;
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+    }
+
+
+}
