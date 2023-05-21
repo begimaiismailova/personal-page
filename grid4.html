@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+    <link rel="stylesheet" href="grid4.css" class="style">   
+</head>
+<body>
+    <button onclick='switchStyle()' style='position: absolute; top:0; right:0;'>Style</button>
+    <link rel="stylesheet" href="grid4.css" class="style">
+    <img src='https://cdn.imgchest.com/files/3yrgczd8n4z.png' style='position: absolute; top:0; left:0;z-index:-1'>
+    <div class="container">
+        <div class="box1">
+            <img
+       src="hhttps://banks.kg/favicons/favicon-32x32.png" alt="banks">
+        </div>
+        <div class="box2">
+            <h1>ПОДБЕРЕМ ДЛЯ ВАС</h1>
+            <h2>Выгодные Кредиты</h2>
+            <h3>Заполните единую онлайн-заявку, и мы покажем банки, в которых у вас есть высокая вероятность получить кредит</h3>
+            <button>ПОДОБРАТЬ КРЕДИТ</button>
+        </div>
+        <div class="box3">
+            <ul>
+            <li class="libox1">
+                <h1>КРЕДИТЫ</h1>
+                <h2>Оставьте заявку на получения кредита или сравните кредиты банков Кыргызстана</h2>
+            </li>
+            <li class="libox2">
+                <h1>ВКЛАДЫ</h1>
+                <h2>Вложите ваши стредства по максимально высокой процентной ставке</h2>
+            </li>
+            <li class="libox3">
+                <h1>ПЛАТЕЖНЫЕ КАРТЫ</h1>
+                <h2>Подберите оптимальную банковскую карту, которая подойдет именно вам</h2>
+            </li>
+        </ul>
+        </div>
+        <div class="box4">
+            <ul>
+                <li>
+                <h4>О проекте</h4>
+                <h4>Реклама на сайте</h4>
+                <h4>Политика конфиденциальности</h4>
+                <h4>Обратная связь</h4>   
+                </li>
+                <li>
+                <h4>Для банков</h4>
+                <h4>Для клиентов</h4>
+                <h4>Сотрудничество</h4>
+                <h4>Курсы валют</h4>  
+                <h4>Вакансии</h4> 
+                </li>
+                <li>
+                <h4>Финансовые новости</h4>
+                <h4>Полезные материалы</h4>
+                <h4>Вопрос-ответ</h4>
+                <h4>Справочник</h4>  
+                </li>
+            </ul>
+        </div>
+        <div class="box5">
+            <ul>
+                
+                <li>Банки</li>
+                    <li>Кредиты</li>
+                    <li>Вклады</li>
+                    <li>Карты</li>
+                    <li>Микрокредиты</li>
+                    <li>Ещё</li>
+                
+            </ul>
+        </div>
+        <div class="box6">Курсы валют</div>
+    </div>
+    <script>
+        function switchStyle() {
+        let style = document.querySelector('.style');
+        if (style.getAttribute('href') == 'grid4.css') {
+            style.setAttribute('href', 'grid2.css'); } 
+        else {
+            style.setAttribute('href', 'grid4.css');
+        }  
+    }
+</script>
+</body>
+</html>
